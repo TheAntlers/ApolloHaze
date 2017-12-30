@@ -269,7 +269,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 80px;
-    background: url('./images/dark-on-light/logo.png') no-repeat top left;
+    background: url('https://ptpimg.me/qf4hw8.png') no-repeat top left;
     background-size: auto 80px;
     display: block;
     margin-left: 0;
@@ -407,6 +407,42 @@ ul.thin li {
     height: 42px;
     color: transparent;
     margin: -133px 0 0 713px !important;
+}
+#nav_bonus{
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50px;
+    height: 42px;
+    color: transparent;
+    margin: -133px 0 0 713px !important;
+}
+#nav_bonus a {
+    color: transparent;
+    display: block;
+    width: 50px;
+    margin-top: 0;
+    padding-top: 45px;
+    font-weight: 700 !important;
+    font-size: 10px;
+    text-align: center;
+    background: url('https://a.safe.moe/Yk28o.png');
+    background-position: 0 3px;
+    background-size: 50px auto !important;
+    transition: color 0.2s;
+}
+#nav_bonus a:hover {
+    color: #fff;
+    background: url('https://a.safe.moe/Yk28o.png') !important;
+    background-position: 0 87px !important;
+    background-size: 50px auto !important;
+}
+#nav_bonus a:active {
+    color: #fff;
+    background: url('https://a.safe.moe/Yk28o.png');
+    background-position: 0 45px !important;
+    background-size: 50px auto !important;
 }
 #nav_staff a {
     color: transparent;
