@@ -240,7 +240,7 @@ ul.thin li {
     border: none;
     width: auto;
     height: 80px;
-    background: url('./images/light-on-dark/logo.png') no-repeat top left;
+    background: url('https://a.safe.moe/oUwxA.png') no-repeat top left;
     background-size: auto 80px;
     display: block;
     margin-left: 0;
@@ -369,8 +369,47 @@ ul.thin li {
     background-size: 50px auto !important;
     color: #fff !important;
 }
+
+
+
+
+
+
+
+
+
+
+
 #nav_staff {
     position: absolute;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 0px;
+    height: 42px;
+    color: transparent;
+ 
+    margin: -133px 0 0 713px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav_bonus{
     display: inline-block;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -380,30 +419,58 @@ ul.thin li {
     color: transparent;
     margin: -133px 0 0 713px !important;
 }
-#nav_staff a {
+#nav_bonus a {
     color: transparent;
     display: block;
     width: 50px;
     margin-top: 0;
-    padding-top: 35px;
+    padding-top: 45px;
     font-weight: 700 !important;
     font-size: 10px;
     text-align: center;
-    background: url('./images/menu/staff-sprite-dark.png');
+    background: url('https://a.safe.moe/Yk28o.png');
+    background-position: 0 3px;
+    background-size: 50px auto !important;
+    transition: color 0.2s;
+}
+#nav_bonus a:hover {
+    color: #fff;
+    background: url('https://a.safe.moe/Yk28o.png') !important;
+    background-position: 0 87px !important;
+    background-size: 50px auto !important;
+}
+#nav_bonus a:active {
+    color: #fff;
+    background: url('https://a.safe.moe/Yk28o.png');
+    background-position: 0 45px !important;
+    background-size: 50px auto !important;
+}
+#nav_staff a {
+    color: transparent;
+    display: block;
+    position:absolute;
+    right:-20px;
+    width: 50px;
+    margin-top: 0;
+    padding-top: 35px;https://apollo.rip/staff.php
+    font-weight: 700 !important;
+    font-size: 10px;
+    text-align: center;
+    background: url('https://a.safe.moe/D0Mlu.png');
     background-position: 0 8px;
     background-size: 50px auto !important;
     transition: color 0.2s;
 }
 #nav_staff a:hover {
     color: #fff;
-    background: url('./images/menu/staff-sprite-dark.png') !important;
+    background: url('https://a.safe.moe/D0Mlu.png') !important;
     background-position: 0 91px !important;
     background-size: 50px auto !important;
 }
 #nav_staff a:active {
     color: #fff;
-    background: url('./images/menu/staff-sprite-dark.png');
-    background-position: 0 48px !important;
+    background: url('https://a.safe.moe/D0Mlu.png');
+    background-position: 0 49px !important;
     background-size: 50px auto !important;
 }
 #userinfo {
@@ -421,6 +488,7 @@ ul.thin li {
     margin: -131px 0 0 765px;
     float: right;
     white-space: nowrap;
+    right:-30px;
 }
 #userinfo_major li a {
     display: inline-block;
@@ -446,57 +514,56 @@ ul.thin li {
     transition: color 0.2s;
 }
 #userinfo_major #nav_upload {
-    background: url('./images/menu/upload-sprite-dark.png');
+    background: url('https://a.safe.moe/taqdj.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:hover {
     color: #fff;
-    background: url('./images/menu/upload-sprite-dark.png');
+    background: url('https://a.safe.moe/taqdj.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_upload a:active {
     color: #fff;
-    background: url('./images/menu/upload-sprite-dark.png');
+    background: url('https://a.safe.moe/taqdj.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite {
-    background: url('./images/menu/invite-sprite-dark.png');
+    background: url('https://a.safe.moe/XTIRn.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:hover {
     color: #fff;
-    background: url('./images/menu/invite-sprite-dark.png');
+    background: url('https://a.safe.moe/XTIRn.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_invite a:active {
     color: #fff;
-    background: url('./images/menu/invite-sprite-dark.png');
-    background-position: 0 48px;
+    background: url('https://a.safe.moe/XTIRn.png');
+    background-position: 0 49px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate {
-    background: url('./images/menu/donate-sprite-dark.png');
+    background: url('https://a.safe.moe/TR1tm.png');
     background-position: 0px 6px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:hover {
     color: #fff;
-    background: url('./images/menu/donate-sprite-dark.png');
+    background: url('https://a.safe.moe/TR1tm.png');
     background-position: 0 90px;
     background-size: 50px auto !important;
 }
 #userinfo_major #nav_donate a:active {
     color: #fff;
-    background: url('./images/menu/donate-sprite-dark.png');
+    background: url('https://a.safe.moe/TR1tm.png');
     background-position: 0 48px;
     background-size: 50px auto !important;
 }
-
 #extra2 {
 	position: fixed;
 	background-color: rgba(53, 54, 54, 0.97);
