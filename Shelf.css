@@ -418,6 +418,19 @@ ul.thin li {
     color: transparent;
     margin: -133px 0 0 713px !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 #nav_bonus a {
     color: transparent;
     display: block;
@@ -427,22 +440,25 @@ ul.thin li {
     font-weight: 700 !important;
     font-size: 10px;
     text-align: center;
-    background: url('https://a.safe.moe/Yk28o.png');
+    background: url('https://a.safe.moe/hhYrl.png');
     background-position: 0 3px;
     background-size: 50px auto !important;
     transition: color 0.2s;
 }
 #nav_bonus a:hover {
     color: #fff;
-    background: url('https://a.safe.moe/Yk28o.png') !important;
+    background: url('https://a.safe.moe/hhYrl.png') !important;
     background-position: 0 87px !important;
     background-size: 50px auto !important;
 }
 #nav_bonus a:active {
     color: #fff;
-    background: url('https://a.safe.moe/Yk28o.png');
+    background: url('https://a.safe.moe/hhYrl.png');
     background-position: 0 45px !important;
     background-size: 50px auto !important;
+	
+	
+	
 }
 #nav_staff a {
     color: transparent;
