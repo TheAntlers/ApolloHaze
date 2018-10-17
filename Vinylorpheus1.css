@@ -20,7 +20,7 @@ html {
     width: 100%;
 }
 body {
-    background-image: url('./images/backgrounds/vinyl.jpg');
+    background-image: url('https://ptpimg.me/0b9luj.png');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
