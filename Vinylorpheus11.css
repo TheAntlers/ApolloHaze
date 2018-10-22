@@ -239,9 +239,9 @@ ul.thin li {
 #logo a {
     border: none;
     width: auto;
-    height: 80px;
+    height: 40px;
     background: url('https://ptpimg.me/07zbx7.png') no-repeat top left;
-    background-size: auto 80px;
+    background-size: auto 40px;
     display: block;
     margin-left: 0;
 }
